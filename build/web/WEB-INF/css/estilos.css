@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/01/2017, 07:22:31 PM
+    Author     : EDSN-PC
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#h1princip{
+    text-align: center;
+    color: blue;
+    background-color: appworkspace;
+    padding: 10px;
+    border: 3px solid aqua;
+}
+
+.formreg{
+    height: auto;
+    width: 500px;
+    border: 5px burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+form{
+    background-color: sandybrown;
+}
+.respuesta{
+    background-color: turquoise;
+    width: auto;
+    height: auto;
+    border: 5px dashed red;
+    padding: 10px
+}
+.respuesta p{
+    text-align: center;
+}
+
+nav{
+   border: 5px yellowgreen dashed;
+}
+menu{
+    width: 20%;
+        height: auto;
+    background-color: salmon;
+    border: 1px solid brown;
+    margin-right: auto;
+    padding: 20px;
+}
+main{
+    width: 80%;
+    height: auto;
+    background-color: antiquewhite;
+    border: 1px solid tomato;
+    margin-left: auto;
+    padding: 20px;
+}
+
+#contenedor{
+    display: flex;
+}
